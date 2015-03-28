@@ -25,7 +25,7 @@ public class KeyboardListener implements KeyListener {
 	@Override
 	public void keyPressed(KeyEvent e) {
 		Action code = Action.getType(e.getKeyCode());
-		
+		System.out.println(e.getKeyCode());
 		if (code != null) {
 			pressedKeys.add(code);
 		}

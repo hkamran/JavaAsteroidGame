@@ -19,9 +19,10 @@ public class Player extends GameObject {
 
 	private static final Double ROTATION_SPEED = 2.0;
 	private static final Double MAXSPEED = 3.0;
-	private static final Integer SHOOTING_DELAY = 30;
 	private static final Double FRICTION = 0.005;
 	private static final Vector THRUST = new Vector(0.0, 0.02);	
+	
+	private static Integer SHOOTING_DELAY = 30;
 	
 	private Color color;
 
@@ -78,7 +79,15 @@ public class Player extends GameObject {
 				this.moveDown();
 			}
 
-			if (shootingCounter == 0) {
+			if (code == Action.decrease) {
+				SHOOTING_DELAY -= 1;
+			} 
+			
+			if (code == Action.increase) {
+				SHOOTING_DELAY += 1;
+			}
+			
+			if (shootingCounter <= 0) {
 				if (code == Action.space) {
 					shootingCounter = SHOOTING_DELAY;
 					if (pressedKeys.contains(Action.space))
