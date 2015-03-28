@@ -57,12 +57,15 @@ public class Line {
 		Double lineMaxY = Math.max(line.pt1.y, line.pt2.y) + tolerance; 
 		
 		Point point;
-		
+
 		if (Double.isInfinite(this.slope)) {
 			//This line is vertical.
 			//Assume the intersecting point is this lines x value and the y value of the incoming line.
 			//and just check if the range of this intersecting point is valid.
 			point = new Point(pt1.x, line.getPoint(pt1.x));
+		} else if (Double.isInfinite(line.slope)) {
+			//The line we are colliding with is vertical..
+			point = new Point(line.pt1.x, this.getPoint(line.pt1.x));
 		} else {
 			Double xIntersect = b/mx;
 			Double yIntersect = getPoint(xIntersect);
