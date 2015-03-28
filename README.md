@@ -1,2 +1,2 @@
 # JavaAsteroidGame-
-Asteroid Game done in JAva
+Asteroid Game done in Java
