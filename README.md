@@ -20,5 +20,6 @@ Have fun!
 
 UP, DOWN, LEFT, RIGHT, SPACE<br />
 alternately..<br />
-W, S, A, D, SPACE
+W, S, A, D, SPACE <br />
++/- Increase/Decrease delay in shooting.
 
