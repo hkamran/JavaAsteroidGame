@@ -10,12 +10,13 @@ The classic asteroid game done in pure Java (1.7).
 
 ## Controls
 
+
 | Input  | Key     |
 | ----   |:-------:|
 | Up     | W       |
 | Down   | S       |
 | Left   | A   	   |
-| RIGHT  | D   	   |
+| Right  | D   	   |
 | Shoot  | SPACE   |
 
 | Input  | Key     |
@@ -23,7 +24,7 @@ The classic asteroid game done in pure Java (1.7).
 | Up     | UP      |
 | Down   | DOWN    |
 | Left   | LEFT    |
-| RIGHT  | RIGHT   |
+| Right  | RIGHT   |
 | Shoot  | SPACE   |
 
 | Input  | Key     |
