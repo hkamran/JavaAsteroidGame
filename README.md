@@ -11,15 +11,15 @@ The classic asteroid game done in pure Java (1.7).
 ## Controls
 
 
-| Input  | Key     |
-| ----   |:-------:|
-| Up     | W/UP    |
-| Down   | S/DOWN  |
-| Left   | A/LEFT  |
-| Right  | D/RIGHT |
-| Shoot  | SPACE   |
+| Input  | Key 1   | Key 2   |
+| ----   | -----   |:-------:|
+| Up     | W       | UP		 |
+| Down   | S       | DOWN	 |
+| Left   | A       | LEFT	 |
+| Right  | D 	   | RIGHT	 |
+| Shoot  | SPACE   | SPACE	 | 
 
-| Input  | Key     |
+| Input  				   | Key    |
 | ------------------------ |:------:|
 | Increase Shooting Delay  | +      |
 | Decrease Shooting Delay  | -      |
