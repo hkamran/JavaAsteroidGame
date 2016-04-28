@@ -13,24 +13,16 @@ The classic asteroid game done in pure Java (1.7).
 
 | Input  | Key     |
 | ----   |:-------:|
-| Up     | W       |
-| Down   | S       |
-| Left   | A   	   |
-| Right  | D   	   |
-| Shoot  | SPACE   |
-
-| Input  | Key     |
-| ----   |:-------:|
-| Up     | UP      |
-| Down   | DOWN    |
-| Left   | LEFT    |
-| Right  | RIGHT   |
+| Up     | W/UP    |
+| Down   | S/DOWN  |
+| Left   | A/LEFT  |
+| Right  | D/RIGHT |
 | Shoot  | SPACE   |
 
 | Input  | Key     |
 | ------------------------ |:------:|
-| Increase Shooting Speed  | +      |
-| Decrease Shooting Speed  | -      |
+| Increase Shooting Delay  | +      |
+| Decrease Shooting Delay  | -      |
 
 ## Demo
 <a href="https://raw.githubusercontent.com/hkamran/JavaAsteroidGame/master/demo/JavaAsteroidGame-1.0-SNAPSHOT.jar">Download JAR</a>
