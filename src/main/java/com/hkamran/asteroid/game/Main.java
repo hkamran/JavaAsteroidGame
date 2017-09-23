@@ -1,4 +1,4 @@
-package com.hkamran.asteroid.gui;
+package com.hkamran.asteroid.game;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -6,11 +6,10 @@ import java.awt.Toolkit;
 
 import javax.swing.JFrame;
 
-import com.hkamran.asteroid.game.Game;
 import com.hkamran.asteroid.game.controls.Action;
 
-public class Screen {
-
+public class Main {
+	
 	/**
 	 * Entry point of the game.
 	 */

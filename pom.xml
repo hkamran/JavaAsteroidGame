@@ -24,7 +24,7 @@
 				<configuration>
 				  <archive>
 					<manifest>
-						<mainClass>com.hkamran.asteroid.gui.Screen</mainClass>
+						<mainClass>com.hkamran.asteroid.game.Main</mainClass>
 					</manifest>
 				  </archive>
 				</configuration>
